@@ -4,11 +4,7 @@ if (document.getElementById('my-work-link')) {
   })
 }
 
-var atrib = document.getElementsByClassName("atributo");
-
-function idCompare(element){
-  
-}
+var atrib = document.querySelectorAll('atributo');
 
 function valueCheck() {
   let total = document.querySelectorAll('input[type="checkbox"]:checked');
