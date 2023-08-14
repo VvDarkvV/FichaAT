@@ -4,7 +4,7 @@ if (document.getElementById('my-work-link')) {
   })
 }
 
-var atrib = document.querySelectorAll("atributo");
+var atrib = document.getElementsByClassName("atributo");
 
 function idCompare(element){
   
