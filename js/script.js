@@ -14,7 +14,7 @@ function valueCheck() {
       if(total[i].id = element.id){
         count++;
       }
-      var valID = element.id + "-valor"
+      var valID = element.id + "-valor";
       document.getElementById(valID).innerHTML = count;
       }
   });
